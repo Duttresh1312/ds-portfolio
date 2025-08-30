@@ -6,7 +6,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Contact from './components/Contact';
-
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   useEffect(() => {
     // Smooth scroll behavior for navigation links
